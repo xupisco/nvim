@@ -8,12 +8,16 @@ endif
 " Start
 call plug#begin('~/.config/nvim/plugged')
 
+" Search
+Plug 'ctrlpvim/ctrlp.vim'
+
 " Customization
 Plug 'kaicataldo/material.vim' " Colorscheme
 Plug 'itchyny/lightline.vim' " Statubar
 Plug 'mengelbrecht/lightline-bufferline' " Show buffer in tabs
 Plug 'liuchengxu/vim-which-key' " Show all available mappings
 Plug 'ryanoasis/vim-devicons' " Fancy icons, why not?
+Plug 'mhinz/vim-startify' " Better start screen and project management
 
 " Intellisense engine (and other features)
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -22,9 +26,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'jiangmiao/auto-pairs' " Auto pairs for '(' '[' '{' 
 Plug 'Yggdroot/indentLine' " Show identation lines
 Plug 'airblade/vim-gitgutter' " Git gutter
-
-" Search
-Plug 'ctrlpvim/ctrlp.vim'
+Plug 'ap/vim-css-color' " Show Hexa colors in editor
+Plug 'sheerun/vim-polyglot' " Better syntax highlight
 
 " Float term
 Plug 'voldikss/vim-floaterm'

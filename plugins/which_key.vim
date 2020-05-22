@@ -14,7 +14,8 @@ let g:which_key_use_floating_win = 0
 " Window management
 let g:which_key_map.w = {
     \ 'name' : '+ Window' ,
-    \ 'x' : ['<C-W>c'     , 'Delete']  ,
+    \ 'x' : [':q'         , 'Close pane']     ,
+    \ 'X' : [':bd'        , 'Close buffer']   ,
     \ '-' : ['<C-W>s'     , 'Split below']    ,
     \ '|' : ['<C-W>v'     , 'Split right']    ,
     \ '2' : ['<C-W>v'     , 'Double columns'] ,
