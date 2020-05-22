@@ -1,0 +1,37 @@
+// Options are almost self explanatory
+{
+    "coc.preferences.noselect": false,
+    "coc.preferences.formatOnSaveFiletypes": [
+        "css",
+        "markdown",
+        "javascript",
+        "html",
+        "yaml",
+        "json"
+    ],
+    "python.venvFolders": [".envs", ".pyenv"],
+    "python.jediEnabled": false,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--errors-only",
+        "--load-plugins",
+        "pylint_django"
+    ],
+     "python.linting.pep8Args": [
+        "--ignore=C0301,W0142,W0402,R0201,E1101,E1102,C0103,R0901,R0903,R0904,C1001,W0223,W0232,W0201,E1103,R0801,C0111",
+        "--max-line-length=120"
+    ],
+    "explorer.width": 35,
+    "explorer.icon.enableNerdfont": true,
+    "explorer.previewAction.onHover": true,
+    "explorer.quitOnOpen": false,
+    "explorer.keyMappings": {
+        "<cr>": [
+            "expandable?",
+            "expand",
+            "open"
+        ],
+        "v": "open:vsplit"
+    }
+}
