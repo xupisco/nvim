@@ -70,3 +70,7 @@ autocmd CursorHold * silent call CocActionAsync('highlight')
 
 autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
 autocmd FileType python let b:coc_root_patterns = ['.git', '.env']
+
+hi CocExplorerNormalFloatBorder guifg=#ebdbb2 guibg=#202020
+hi CocExplorerNormalFloat guibg=#202020
+

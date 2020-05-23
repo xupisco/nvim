@@ -13,11 +13,12 @@ Plug 'ctrlpvim/ctrlp.vim'
 
 " Customization
 Plug 'kaicataldo/material.vim' " Colorscheme
+Plug 'morhetz/gruvbox' " Gruvbox
+
 Plug 'itchyny/lightline.vim' " Statubar
 Plug 'mengelbrecht/lightline-bufferline' " Show buffer in tabs
 Plug 'liuchengxu/vim-which-key' " Show all available mappings
 Plug 'ryanoasis/vim-devicons' " Fancy icons, why not?
-Plug 'mhinz/vim-startify' " Better start screen and project management
 
 " Intellisense engine (and other features)
 Plug 'neoclide/coc.nvim', {'branch': 'release'}

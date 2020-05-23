@@ -6,7 +6,7 @@ let g:lightline#bufferline#filename_modifier = ':t'
 let g:lightline#bufferline#unnamed      = '[No Name]'
 
 let g:lightline = {
-    \ 'colorscheme': 'material_vim',
+    \ 'colorscheme': 'gruvbox',
     \ 'active': {
     \   'left': [['mode', 'paste'], ['readonly', 'absolutepath', 'modified']]
     \ },

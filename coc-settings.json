@@ -1,14 +1,8 @@
 // Options are almost self explanatory
 {
-  "coc.preferences.noselect": false,
+  "coc.preferences.noselect": true,
   "coc.preferences.formatOnSaveFiletypes": [
-    "css",
-    "scss",
-    "markdown",
-    "javascript",
-    "html",
-    "yaml",
-    "json"
+    "null"
   ],
   "python.venvFolders": [".envs", ".pyenv"],
   "python.jediEnabled": false,

@@ -34,13 +34,19 @@ let g:which_key_map.w = {
 let g:which_key_map.v = {
     \ 'name': '+ Vim settings',
     \ 'e': 'Edit $VIMRC',
-    \ 's': 'Reload $VIMRC',
+    \ 'r': 'Reload $VIMRC',
     \ }
     
+let g:which_key_map.s = {
+    \ 'name': '+ Split',
+    \ 'h': 'Horizontal',
+    \ 'v': 'Vertical',
+    \ }
+
 " Plugins
 let g:which_key_map.t = {
     \ 'name' : '+ Terminal' ,
-    \ ';' : [':FloatermNew --wintype=floating --height=6'     , 'terminal'],
+    \ ';' : [':FloatermNew --wintype=floating --height=.8'    , 'terminal'],
     \ 'g' : [':FloatermNew lazygit'                           , 'git'],
     \ 'p' : [':FloatermNew python'                            , 'python'],
     \ 't' : [':FloatermToggle'                                , 'toggle'],
