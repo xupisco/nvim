@@ -9,6 +9,7 @@ let g:which_key_map =  {}
 let g:which_key_sep = '→'
 
 " Not a fan of floating windows for this
+let g:which_key_hspace = 3
 let g:which_key_use_floating_win = 0
 
 " Window management
@@ -56,6 +57,7 @@ let g:which_key_map.t = {
     
 " Plugin mappings with title
 let g:which_key_map.h = { 'name': '+ Git gutter' }
+let g:which_key_map['t'] = [ ':FloatermNew --wintype=floating --height=0.8' , 'Terminal (floating)' ]
 let g:which_key_map['e'] = [ ':CocCommand explorer' , 'Explorer' ]
 let g:which_key_map['f'] = [ ':CocCommand explorer --preset floating' , 'Explorer (floating)' ]
 
