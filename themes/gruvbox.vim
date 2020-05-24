@@ -3,7 +3,7 @@ if (has('termguicolors'))
     set termguicolors
 endif
 
-let g:gruvbox_invert_signs = 1
+let g:gruvbox_invert_signs = 0
 let g:gruvbox_contrast_dark = 'medium'
 
 colorscheme gruvbox
