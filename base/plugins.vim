@@ -35,5 +35,8 @@ Plug 'sheerun/vim-polyglot' " Better syntax highlight
 " Float term
 Plug 'voldikss/vim-floaterm'
 
+" Git
+Plug 'tpope/vim-fugitive'
+
 " End
 call plug#end()

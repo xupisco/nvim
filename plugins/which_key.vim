@@ -47,7 +47,6 @@ let g:which_key_map.s = {
 " Plugins
 let g:which_key_map.t = {
     \ 'name' : '+ Terminal' ,
-    \ ';' : [':FloatermNew --wintype=floating --height=.8'    , 'terminal'],
     \ 'g' : [':FloatermNew lazygit'                           , 'git'],
     \ 'p' : [':FloatermNew python'                            , 'python'],
     \ 't' : [':FloatermToggle'                                , 'toggle'],
@@ -57,7 +56,6 @@ let g:which_key_map.t = {
     
 " Plugin mappings with title
 let g:which_key_map.h = { 'name': '+ Git gutter' }
-let g:which_key_map['t'] = [ ':FloatermNew --wintype=floating --height=0.8' , 'Terminal (floating)' ]
 let g:which_key_map['e'] = [ ':CocCommand explorer' , 'Explorer' ]
 let g:which_key_map['f'] = [ ':CocCommand explorer --preset floating' , 'Explorer (floating)' ]
 
