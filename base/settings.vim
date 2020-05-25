@@ -31,6 +31,7 @@ set clipboard=unnamedplus  " Copy paste between vim and everything else
 set inccommand=split       " Show command results in real-time
 set autochdir              " Your working directory will always be the same as your working directory
 set t_Co=256               " We want COLORS...
+NoMatchParen               " It's bugged
 
 " Neovim is fancy
 if (has('nvim'))
