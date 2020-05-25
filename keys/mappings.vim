@@ -1,4 +1,4 @@
-" Quickly open/reload vim
+" Quickly open/reload vimrc
 nnoremap <leader>ve :e $MYVIMRC<CR>  
 nnoremap <leader>vr :source $MYVIMRC<CR> 
 
