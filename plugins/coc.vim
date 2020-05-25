@@ -9,8 +9,12 @@ inoremap <silent><expr> <TAB>
       \ pumvisible() ? "\<C-n>" :
       \ <SID>check_back_space() ? "\<TAB>" :
       \ coc#refresh()
-inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+inoremap <expr><S-TAB> pumvisible() ? '\<C-p>' : '\<C-h>'
 inoremap <expr> <Esc> pumvisible() ? '<Esc>a' : '<Esc>'
+
+" Pum with arrow keys
+cnoremap <expr> <Up>   pumvisible() ? "<C-p>" : "\<Up>"
+cnoremap <expr> <Down> pumvisible() ? "<C-n>" : "\<Down>"
 
 function! s:check_back_space() abort
   let col = col('.') - 1
