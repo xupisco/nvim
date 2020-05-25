@@ -19,3 +19,4 @@ source $HOME/.config/nvim/plugins/prettier.vim " Code format
 
 " Custom Key mappings
 source $HOME/.config/nvim/keys/mappings.vim
+

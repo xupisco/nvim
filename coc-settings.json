@@ -1,5 +1,5 @@
 {
-  "suggest.noselect": true,
+  "suggest.noselect": false,
   "coc.preferences.formatOnSaveFiletypes": [
     "null"
   ],

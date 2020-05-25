@@ -61,3 +61,4 @@ let g:which_key_map['f'] = [ ':CocCommand explorer --preset floating' , 'Explore
 
 " Register mappings
 call which_key#register(',', "g:which_key_map")
+
