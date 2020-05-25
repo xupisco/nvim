@@ -13,11 +13,8 @@ Plug 'ctrlpvim/ctrlp.vim'
 
 " Customization
 Plug 'morhetz/gruvbox' " Gruvbox
-
 Plug 'vim-airline/vim-airline' " Statusbar
 Plug 'vim-airline/vim-airline-themes' " Themes
-
-" Plug 'itchyny/lightline.vim' " Statubar
 Plug 'mengelbrecht/lightline-bufferline' " Show buffer in tabs
 Plug 'liuchengxu/vim-which-key' " Show all available mappings
 Plug 'ryanoasis/vim-devicons' " Fancy icons, why not?
