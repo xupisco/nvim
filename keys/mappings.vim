@@ -40,3 +40,7 @@ imap <S-End> <Esc>v<End>
 " Shift to indent
 vmap <Tab> >gv
 vmap <S-Tab> <gv
+
+" Clear search highlight
+nnoremap <leader>c :nohl<CR>
+

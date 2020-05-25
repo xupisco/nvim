@@ -18,12 +18,12 @@ Plug 'vim-airline/vim-airline-themes' " Themes
 Plug 'mengelbrecht/lightline-bufferline' " Show buffer in tabs
 Plug 'liuchengxu/vim-which-key' " Show all available mappings
 Plug 'ryanoasis/vim-devicons' " Fancy icons, why not?
+Plug 'mhinz/vim-startify' " Cool start screen and session manager
 
 " Intellisense engine (and other features)
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Code helpers
-Plug 'jiangmiao/auto-pairs' " Auto pairs for '(' '[' '{' 
 Plug 'Yggdroot/indentLine' " Show identation lines
 Plug 'airblade/vim-gitgutter' " Git gutter
 Plug 'ap/vim-css-color' " Show Hexa colors in editor
