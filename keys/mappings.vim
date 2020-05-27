@@ -11,7 +11,6 @@ nnoremap <S-TAB> :bprevious<CR> " Previous buffen
 
 " Buffers menu (plugin)
 nnoremap <leader>q :Bdelete menu<CR>
-nnoremap <leader>b :CtrlPBuffer<CR>
 
 " Make PgUp and PgDown behave like everywhere else
 nnoremap <PageUp> <C-u>

@@ -10,6 +10,7 @@ call plug#begin('~/.config/nvim/plugged')
 
 " Search
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'jlanzarotta/bufexplorer' " Buffer explorer
 
 " Customization
 Plug 'morhetz/gruvbox' " Gruvbox

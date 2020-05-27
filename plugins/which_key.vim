@@ -32,6 +32,14 @@ let g:which_key_map.w = {
     \ }
 
 " $VIMRC shortcuts
+let g:which_key_map.b = {
+    \ 'name': '+ Buffer explorer',
+    \ 'e': 'Open',
+    \ 't': 'Toggle',
+    \ 's': 'Horizontal Split',
+    \ 'v': 'Vertical Split',
+    \ }
+
 let g:which_key_map.v = {
     \ 'name': '+ Vim settings',
     \ 'e': 'Edit $VIMRC',
@@ -58,6 +66,8 @@ let g:which_key_map.t = {
 let g:which_key_map.h = { 'name': '+ Git gutter' }
 let g:which_key_map['e'] = [ ':CocCommand explorer' , 'Explorer' ]
 let g:which_key_map['f'] = [ ':CocCommand explorer --preset floating' , 'Explorer (floating)' ]
+let g:which_key_map['p'] = [ ':CtrlPBuffer' , 'View buffers' ]
+let g:which_key_map['q'] = [ ':Bdelete menu' , 'Buffers delete menu' ]
 
 " Register mappings
 call which_key#register(',', "g:which_key_map")
