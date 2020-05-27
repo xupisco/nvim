@@ -19,11 +19,13 @@ Plug 'mengelbrecht/lightline-bufferline' " Show buffer in tabs
 Plug 'liuchengxu/vim-which-key' " Show all available mappings
 Plug 'ryanoasis/vim-devicons' " Fancy icons, why not?
 Plug 'mhinz/vim-startify' " Cool start screen and session manager
+Plug 'Asheq/close-buffers.vim' " Buffers quick menu
 
 " Intellisense engine (and other features)
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Code helpers
+Plug 'editorconfig/editorconfig-vim' " Editor settings:why
 Plug 'Yggdroot/indentLine' " Show identation lines
 Plug 'airblade/vim-gitgutter' " Git gutter
 Plug 'ap/vim-css-color' " Show Hexa colors in editor
