@@ -4,6 +4,7 @@ let g:mapleader = ","
 syntax enable              " Enables syntax highlighing
 set hidden                 " Required to keep multiple buffers open multiple buffers
 set encoding=utf-8         " The encoding displayed 
+set scrolloff=5            " Start scroll X lines before end
 set nowrap                 " No line wraps
 set pumheight=30           " Makes popup menu smaller
 set fileencoding=utf-8     " The encoding written to file
