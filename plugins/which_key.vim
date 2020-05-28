@@ -66,7 +66,8 @@ let g:which_key_map.t = {
 let g:which_key_map.h = { 'name': '+ Git gutter' }
 let g:which_key_map['e'] = [ ':CocCommand explorer' , 'Explorer' ]
 let g:which_key_map['f'] = [ ':CocCommand explorer --preset floating' , 'Explorer (floating)' ]
-let g:which_key_map['p'] = [ ':CtrlPBuffer' , 'View buffers' ]
+let g:which_key_map['o'] = [ ':BufExplorerHorizontalSplit' , 'View buffers' ]
+let g:which_key_map['p'] = [ ':CtrlPBuffer' , 'Ctrl-P buffers' ]
 let g:which_key_map['q'] = [ ':Bdelete menu' , 'Buffers delete menu' ]
 
 " Register mappings
