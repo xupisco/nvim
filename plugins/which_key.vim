@@ -64,11 +64,12 @@ let g:which_key_map.t = {
     
 " Plugin mappings with title
 let g:which_key_map.h = { 'name': '+ Git gutter' }
+let g:which_key_map['c'] = [ ':bd' , 'Delete buffer' ]
 let g:which_key_map['e'] = [ ':CocCommand explorer' , 'Explorer' ]
 let g:which_key_map['f'] = [ ':CocCommand explorer --preset floating' , 'Explorer (floating)' ]
 let g:which_key_map['o'] = [ ':BufExplorerHorizontalSplit' , 'View buffers' ]
 let g:which_key_map['p'] = [ ':CtrlPBuffer' , 'Ctrl-P buffers' ]
-let g:which_key_map['q'] = [ ':Bdelete menu' , 'Buffers delete menu' ]
+let g:which_key_map['q'] = [ ':nohl' , 'Clear highlights' ]
 
 " Register mappings
 call which_key#register(',', "g:which_key_map")

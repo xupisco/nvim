@@ -9,9 +9,6 @@ nnoremap <leader>sh <C-W>v
 nnoremap <TAB> :bnext<CR>
 nnoremap <S-TAB> :bprevious<CR> " Previous buffen
 
-" Buffers menu (plugin)
-nnoremap <leader>q :Bdelete menu<CR>
-
 " Make PgUp and PgDown behave like everywhere else
 nnoremap <PageUp> <C-u>
 nnoremap <PageDown> <C-d>
@@ -45,5 +42,5 @@ vmap <Tab> >gv
 vmap <S-Tab> <gv
 
 " Clear search highlight
-nnoremap <leader>c :nohl<CR>
+nnoremap <leader>q :nohl<CR>
 
