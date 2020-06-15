@@ -2,6 +2,9 @@
 " diagnostics appear/become resolved.
 set signcolumn=yes
 
+" Control+Space trigger completion popup
+inoremap <silent><expr> <c-space> coc#refresh()
+
 " Use tab for trigger completion with characters ahead and navigate.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
 " other plugin before putting this into your config.
@@ -76,6 +79,6 @@ autocmd CursorHold * silent call CocActionAsync('highlight')
 autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
 autocmd FileType python let b:coc_root_patterns = ['.git', '.env']
 
-hi CocExplorerNormalFloatBorder guifg=#ebdbb2 guibg=#202020
-hi CocExplorerNormalFloat guibg=#202020
+" hi CocExplorerNormalFloatBorder guifg=#ebdbb2 guibg=#202020
+" hi CocExplorerNormalFloat guibg=#202020
 
