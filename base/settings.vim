@@ -1,5 +1,6 @@
 " set leader key
 let g:mapleader = ","
+let g:loaded_clipboard_provider=1
 
 syntax enable              " Enables syntax highlighing
 set hidden                 " Required to keep multiple buffers open multiple buffers
