@@ -13,7 +13,9 @@ inoremap <silent><expr> <TAB>
       \ <SID>check_back_space() ? "\<TAB>" :
       \ coc#refresh()
 inoremap <expr><S-TAB> pumvisible() ? '\<C-p>' : '\<C-h>'
-inoremap <expr> <Esc> pumvisible() ? '<Esc>a' : '<Esc>'
+
+" Close pum on ESC? Trying out...
+inoremap <expr> <Esc> pumvisible() ? '<C-e>' : '<Esc>'
 
 " Pum with arrow keys
 cnoremap <expr> <Up>   pumvisible() ? "<C-p>" : "\<Up>"
