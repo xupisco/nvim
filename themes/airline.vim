@@ -19,7 +19,7 @@ let g:airline_left_sep = ''
 let g:airline_right_sep = ''
 
 " Switch to your current theme
-let g:airline_theme = 'gruvbox'
+"let g:airline_theme = 'gruvbox'
 
 " Always show tabs 
 set showtabline=2

@@ -4,7 +4,6 @@ if (has('termguicolors'))
 endif
 
 let g:material_theme_style = 'darker'
-colorscheme material
 
 let g:terminal_color_0  = '#333333' " Black
 let g:terminal_color_1  = '#FF8D80' " Red
@@ -24,3 +23,6 @@ let g:terminal_color_14 = '#9CE9FF'
 let g:terminal_color_15 = '#ffffff'
 let g:terminal_color_background="#161616"
 let g:terminal_color_foreground="#f1f1f1"
+
+colorscheme material
+let g:airline_theme = 'material'
