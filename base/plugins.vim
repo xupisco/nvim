@@ -12,6 +12,9 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'jlanzarotta/bufexplorer' " Buffer explorer
 
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
 " Customization
 Plug 'morhetz/gruvbox' " Gruvbox
 Plug 'kaicataldo/material.vim' " Material
@@ -24,6 +27,7 @@ Plug 'mhinz/vim-startify' " Cool start screen and session manager
 
 " Intellisense engine (and other features)
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'airblade/vim-rooter' " Set project root dir:w
 
 " Code helpers
 Plug 'editorconfig/editorconfig-vim' " Editor settings:why
