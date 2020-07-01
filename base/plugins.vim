@@ -12,12 +12,11 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'jlanzarotta/bufexplorer' " Buffer explorer
 
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
+" Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+" Plug 'junegunn/fzf.vim'
 
 " Customization
 Plug 'morhetz/gruvbox' " Gruvbox
-Plug 'kaicataldo/material.vim' " Material
 Plug 'vim-airline/vim-airline' " Statusbar
 Plug 'vim-airline/vim-airline-themes' " Themes
 Plug 'mengelbrecht/lightline-bufferline' " Show buffer in tabs

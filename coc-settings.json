@@ -18,7 +18,7 @@
   ],
   "explorer.width": 30,
   "explorer.icon.enableNerdfont": true,
-  "explorer.quitOnOpen": false,
+  "explorer.quitOnOpen": true,
   "explorer.previewAction.onHover": false,
   "explorer.keyMappings": {
     "<cr>": ["expandable?", "expand", "open"],
