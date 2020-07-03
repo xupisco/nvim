@@ -15,7 +15,7 @@ source $HOME/.config/nvim/plugins/which_key.vim " Shortcuts viewer
 source $HOME/.config/nvim/plugins/prettier.vim " Code format
 source $HOME/.config/nvim/plugins/startify.vim " Splash screen and session manager
 source $HOME/.config/nvim/plugins/editorconfig.vim " Editor settings
-" source $HOME/.config/nvim/plugins/fzf.vim " FZF settings
+source $HOME/.config/nvim/plugins/fzf.vim " FZF settings
 
 " Custom Key mappings
 source $HOME/.config/nvim/keys/mappings.vim
