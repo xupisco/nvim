@@ -4,7 +4,8 @@ source $HOME/.config/nvim/base/python.vim
 source $HOME/.config/nvim/base/plugins.vim
 
 " Customizations
-source $HOME/.config/nvim/themes/gruvbox.vim " Colorscheme
+" source $HOME/.config/nvim/themes/gruvbox.vim " Colorscheme
+source $HOME/.config/nvim/themes/material.vim " Colorscheme
 source $HOME/.config/nvim/themes/airline.vim " Statusbar
 
 " Plugin settings

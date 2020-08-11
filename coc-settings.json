@@ -17,8 +17,8 @@
     "--max-line-length=120"
   ],
   "explorer.width": 30,
-  "explorer.icon.enableNerdfont": true,
-  "explorer.quitOnOpen": true,
+  "explorer.icon.enableNerdfont": false,
+  "explorer.quitOnOpen": false,
   "explorer.previewAction.onHover": false,
   "explorer.keyMappings": {
     "<cr>": ["expandable?", "expand", "open"],

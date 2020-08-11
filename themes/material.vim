@@ -24,5 +24,9 @@ let g:terminal_color_15 = '#ffffff'
 let g:terminal_color_background="#161616"
 let g:terminal_color_foreground="#f1f1f1"
 
+"let s:bg = { 'gui': '#263238', 'cterm': 'none' }
+"let s:selection = { 'gui': '#2c3b41', 'cterm': 239 }
+"let g:SetHighlight('TabLineFill', s:bg, s:selection, '')
+
 colorscheme material
 let g:airline_theme = 'material'

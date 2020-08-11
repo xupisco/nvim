@@ -17,11 +17,12 @@ Plug 'junegunn/fzf.vim'
 
 " Customization
 Plug 'morhetz/gruvbox' " Gruvbox
+Plug 'kaicataldo/material.vim' " Material
 Plug 'vim-airline/vim-airline' " Statusbar
 Plug 'vim-airline/vim-airline-themes' " Themes
 Plug 'mengelbrecht/lightline-bufferline' " Show buffer in tabs
 Plug 'liuchengxu/vim-which-key' " Show all available mappings
-Plug 'ryanoasis/vim-devicons' " Fancy icons, why not?
+"Plug 'ryanoasis/vim-devicons' " Fancy icons, why not?
 Plug 'mhinz/vim-startify' " Cool start screen and session manager
 
 " Intellisense engine (and other features)

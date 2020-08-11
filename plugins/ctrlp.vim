@@ -14,5 +14,5 @@ let g:ctrlp_dotfiles = 1
 let g:ctrlp_working_path_mode = 'ra'
 
 " Enable dev-icons
-let g:webdevicons_enable_ctrlp = 1
+let g:webdevicons_enable_ctrlp = 0
 

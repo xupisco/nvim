@@ -9,7 +9,7 @@ set scrolloff=5            " Start scroll X lines before end
 set nowrap                 " No line wraps
 set pumheight=30           " Makes popup menu smaller
 set fileencoding=utf-8     " The encoding written to file
-set cmdheight=2            " More space for displaying messages
+set cmdheight=1            " More space for displaying messages
 set iskeyword+=-           " Treat dash separated words as a word text object"
 set mouse=a                " Enable your mouse
 set splitbelow             " Horizontal splits will automatically be below
@@ -52,4 +52,13 @@ augroup END
 " Neovim is fancy
 if (has('nvim'))
     let $NVIM_TUI_ENABLE_TRUE_COLOR = 1
+endif
+
+" WSL yank support
+let s:clip = '/mnt/c/Windows/System32/clip.exe'  " change this path according to your mount point
+if executable(s:clip)
+    augroup WSLYank
+        autocmd!
+        autocmd TextYankPost * if v:event.operator ==# 'y' | call system('cat |' . s:clip, @0) | endif
+    augroup END
 endif
