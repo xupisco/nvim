@@ -12,3 +12,4 @@ let g:floaterm_wintitle=0
 let g:floaterm_autoclose=1
 
 hi Floaterm guibg=gray9
+hi FloatermBorder guibg=gray9

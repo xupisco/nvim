@@ -4,6 +4,7 @@
     "null"
   ],
   "python.venvFolders": [".envs", ".pyenv"],
+  "python.venvPath": "~/.venvs",
   "python.jediEnabled": false,
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": true,
@@ -17,11 +18,16 @@
     "--max-line-length=120"
   ],
   "explorer.width": 30,
-  "explorer.icon.enableNerdfont": false,
-  "explorer.quitOnOpen": false,
+  "explorer.icon.enableNerdfont": true,
+  //"explorer.icon.enableVimDevicons": true,
+  "explorer.quitOnOpen": true,
   "explorer.previewAction.onHover": false,
   "explorer.keyMappings": {
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
-  }
+  },
+  "explorer.sources": [
+    { "name": "buffer", "expand": true },
+    { "name": "file", "expand": true }
+  ]
 }

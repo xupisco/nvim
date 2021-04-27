@@ -55,11 +55,11 @@ let g:which_key_map.s = {
 " Plugins
 let g:which_key_map.t = {
     \ 'name' : '+ Terminal' ,
-    \ 'g' : [':FloatermNew lazygit'                           , 'git'],
-    \ 'p' : [':FloatermNew python'                            , 'python'],
-    \ 't' : [':FloatermToggle'                                , 'toggle'],
-    \ 'h' : [':FloatermNew htop'                              , 'htop'],
-    \ 's' : [':FloatermNew ncdu'                              , 'ncdu'],
+    \ 'g' : [':FloatermNew lazygit', 'git'],
+    \ 'p' : [':FloatermNew python', 'python'],
+    \ 't' : [':FloatermToggle', 'toggle'],
+    \ 'h' : [':FloatermNew htop', 'htop'],
+    \ 's' : [':FloatermNew ncdu', 'ncdu'],
     \ }
     
 " Plugin mappings with title
@@ -70,9 +70,10 @@ let g:which_key_map['e'] = [ ':CocCommand explorer --toggle --sources=buffer+,fi
 let g:which_key_map['f'] = [ ':CocCommand explorer --preset floating' , 'Explorer (floating)' ]
 let g:which_key_map['g'] = [ ':Git' , 'Git' ]
 let g:which_key_map['d'] = [ ':CocList diagnostics' , 'Code Diagnostics' ]
-let g:which_key_map['o'] = [ ':BufExplorerHorizontalSplit' , 'View buffers' ]
+let g:which_key_map['o'] = [ ':Buffers' , 'View buffers' ]
+"let g:which_key_map['o'] = [ ':BufExplorerHorizontalSplit' , 'View buffers' ]
 "let g:which_key_map['p'] = [ ':CtrlPBuffer' , 'Ctrl-P buffers' ]
-let g:which_key_map['p'] = [ ':Files' , 'FZF Files' ]
+let g:which_key_map['p'] = [ ':GFiles' , 'FZF Files' ]
 let g:which_key_map['q'] = [ ':nohl' , 'Clear highlights' ]
 
 " Register mappings
