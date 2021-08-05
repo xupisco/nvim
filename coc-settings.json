@@ -10,7 +10,8 @@
   "python.linting.pylintEnabled": true,
   "python.linting.pylintArgs": [
     "--errors-only",
-    "--load-plugins=pylint_django"
+    "--load-plugins=pylint_django",
+    "--help-msg=django-not-configured"
   ],
   "python.linting.pep8Args": [
     "--ignore=C0301,W0142,R0201,E1101,E1102,C0103,R0901,R0903,R0904,C1001,W0223,W0232,W0201,E1103,R0801,C0111",
@@ -18,11 +19,13 @@
   ],
   "explorer.width": 30,
   "explorer.icon.enableNerdfont": true,
-  //"explorer.icon.enableVimDevicons": true,
   "explorer.quitOnOpen": true,
   "explorer.previewAction.onHover": false,
-  "explorer.keyMappings": {
-    "<cr>": ["expandable?", "expand", "open"],
+  "explorer.keyMappings.global": {
+    "<cr>": [
+      "expandable?",
+      ["expanded?", "collapse", "expand"],
+      "open"],
     "v": "open:vsplit"
   },
   "explorer.sources": [
