@@ -65,7 +65,7 @@ let g:which_key_map.t = {
 " Plugin mappings with title
 let g:which_key_map.h = { 'name': '+ Git gutter' }
 
-let g:which_key_map['c'] = [ ':bd' , 'Delete buffer' ]
+let g:which_key_map['c'] = [ ':bp | sp | bn | bd' , 'Delete buffer' ]
 let g:which_key_map['e'] = [ ':CocCommand explorer --toggle --sources=buffer+,file+' , 'Explorer' ]
 let g:which_key_map['f'] = [ ':CocCommand explorer --preset floating' , 'Explorer (floating)' ]
 let g:which_key_map['g'] = [ ':Git' , 'Git' ]
