@@ -14,10 +14,10 @@ nnoremap <PageUp> <C-u>
 nnoremap <PageDown> <C-d>
 
 " Move lines like VSCODE
-nnoremap <C-Down> :m .+1<CR>==
-nnoremap <C-Up> :m .-2<CR>==
-vnoremap <C-Down> :m '>+1<CR>gv=gv
-vnoremap <C-Up> :m '<-2<CR>gv=gv
+nnoremap <A-Down> :m .+1<CR>==
+nnoremap <A-Up> :m .-2<CR>==
+vnoremap <A-Down> :m '>+1<CR>gv=gv
+vnoremap <A-Up> :m '<-2<CR>gv=gv
 
 " Shift+arrow for selection
 nmap <S-Up> v<Up>
