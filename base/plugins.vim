@@ -17,6 +17,7 @@ Plug 'junegunn/fzf.vim'
 
 " Customization
 Plug 'morhetz/gruvbox' " Gruvbox
+Plug 'ayu-theme/ayu-vim' " Ayu
 Plug 'vim-airline/vim-airline' " Statusbar
 Plug 'vim-airline/vim-airline-themes' " Themes
 Plug 'mengelbrecht/lightline-bufferline' " Show buffer in tabs
