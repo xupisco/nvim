@@ -18,8 +18,20 @@ inoremap <expr><S-TAB> pumvisible() ? '\<C-p>' : '\<C-h>'
 inoremap <expr> <Esc> pumvisible() ? '<C-e>' : '<Esc>'
 
 " Pum with arrow keys
-cnoremap <expr> <Up>   pumvisible() ? "<C-p>" : "\<Up>"
-cnoremap <expr> <Down> pumvisible() ? "<C-n>" : "\<Down>"
+cnoremap <expr> <Up>   coc#pum#visible() ? "<C-p>" : "\<Up>"
+cnoremap <expr> <Down> coc#pum#visible() ? "<C-n>" : "\<Down>"
+
+inoremap <silent><expr> <TAB>
+      \ coc#pum#visible() ? coc#pum#next(1):
+      \ CheckBackspace() ? "\<Tab>" :
+      \ coc#refresh()
+inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
+
+" Make <CR> to accept selected completion item or notify coc.nvim to format
+" <C-g>u breaks current undo, please make your own choice.
+inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
+                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+
 
 function! s:check_back_space() abort
   let col = col('.') - 1
