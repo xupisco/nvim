@@ -19,7 +19,7 @@ set shiftwidth=4           " Change the number of space characters inserted for 
 set expandtab              " Converts tabs to spaces
 set smartindent            " Makes indenting smart
 set number                 " Line numbers
-set relativenumber         " Relative line numbers
+"set relativenumber         " Relative line numbers
 set cursorline             " Enable highlighting of the current line
 set background=dark        " tell vim what the background color looks like
 set showtabline=2          " Always show tabs 
